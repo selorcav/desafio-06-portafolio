@@ -5,6 +5,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: var(--main-color);
 }
 nav{
     background-color: var(--main-color);
@@ -13,4 +14,19 @@ nav{
 .navbar-brand img{
     height: 70px;
 }
-
+main{
+    background-image: url("../img/cover1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    text-shadow: 1.5px 1.5px #000;
+}
+main h1{
+    font-size: 3rem;
+}
+@media (max-width: 599px) {
+        main h1{
+            font-size: 2rem;
+        }
+    }
