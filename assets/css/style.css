@@ -1,0 +1,16 @@
+:root{
+    --main-color: black;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: var(--main-color);
+    font-family: 'Oswald', sans-serif;
+}
+.navbar-brand img{
+    height: 70px;
+}
+
