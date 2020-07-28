@@ -92,3 +92,9 @@ main h1{
     border: solid 1px var(--secondary-color) !important;
     color: var(--secondary-color) !important;
 }
+footer{
+    background-color: var(--secondary-color);
+}
+footer i{
+    font-size: 2em;
+}
