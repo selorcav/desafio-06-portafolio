@@ -1,5 +1,5 @@
 $(function () {
-
+	$('[data-toggle="tooltip"]').tooltip();
 	$("a").click(function (event) {
 		// Con este if se asegura que this.hash tenga un valor antes de anular el comportamiento predeterminado
 		if (this.hash !== "") {
