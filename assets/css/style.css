@@ -52,6 +52,15 @@ main h1{
         main h1{
             font-size: 2rem;
         }
+        .card{
+            min-height: 250px !important;
+        }
+        .card-body{
+            padding: 0 !important;
+        }
+        h5{
+            font-size: 1em !important;
+        }
     }
 .logo-sec img{
     width: 150px;
@@ -77,6 +86,7 @@ main h1{
 }
 #contact{
     min-height: 100vh;
+    background-color: #fff;
 }
 .carousel-control-next, .carousel-control-prev{
     cursor: pointer;
