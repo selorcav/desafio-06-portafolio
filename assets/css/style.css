@@ -48,18 +48,12 @@ main h1{
     font-size: 3rem;
     font-family: 'Oswald', sans-serif;
 }
+.card{
+    min-height: 250px !important;
+}
 @media (max-width: 599px) {
         main h1{
             font-size: 2rem;
-        }
-        .card{
-            min-height: 250px !important;
-        }
-        .card-body{
-            padding: 0 !important;
-        }
-        h5{
-            font-size: 1em !important;
         }
     }
 .logo-sec img{
