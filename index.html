@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" type="image/png" href="assets/img/logo.png"/>
+    <link rel="shortcut icon" type="image/png" href="assets/img/logo.png" />
     <!-- GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
     <!-- BOOTSTRAP CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -17,6 +19,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Desafío 06 - Portafolio</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
@@ -28,28 +31,76 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link text-white text-center" href="#">Sobre mi</a>
+                        <a class="text-white text-center nav-link" href="#about-me">Sobre mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white text-center" href="#">Experiencia</a>
+                        <a class="text-white text-center nav-link" href="#experience">Experiencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white text-center" href="#">Trabajos</a>
+                        <a class="text-white text-center nav-link" href="#my-works">Trabajos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white text-center" href="#">Contacto</a>
+                        <a class="text-white text-center nav-link" href="#">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <main class="d-flex align-items-end justify-content-center py-5 px-3">
+    <main class="d-flex align-items-end justify-content-center p-3">
         <h1 class="text-center text-white">¡Hola! <br> Soy Sebastián Lorca, Diseñador Web</h1>
     </main>
-    
+    <section id="about-me" class="container py-5">
+        <div class="row mt-5">
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <div class="logo-sec">
+                    <img src="assets/img/logo-sec.png" alt="">
+                </div>
+            </div>
+            <p class="text-center col-12 m0-auto mt-3">Diseñador gráfico con especialización en Desarrollo de sitios
+                web.</p>
+            <div class="col-md-6 mt-3">
+                <p> Cuento con experiencia en distintos campos del área gráfica, desde diseño editorial,
+                    pasando por producción de impresos hasta desarrollo de sitios web, los cuales han
+                    permitido desenvolverme como profesional integral. <br>
+                    Apasionado por mi trabajo, buscando crecer y aprender. <br>
+                    Destaco por mi pro actividad, compromiso, eficiencia y trabajo en equipo.</p>
+            </div>
+            <div class="col-md-6 mt-3">
+                <p>En 2016 realizó su práctica profesional en el departamento de arte en Agencia Ovalgroup desarrollando
+                    campañas y activaciones. <br> Durante 2016 y 2017 se desempeñó como diseñador editorial, involucrado en
+                    el desarrollo y diseño de piezas literarias, en la Universidad de Santiago de Chile y Lom Ediciones,
+                    respectivamente. <br>
+                    En 2018, ingresa como diseñador encargado del área de impresos y diseño de piezas gráficas en MSDI.
+                    <br> Ya en 2019 pasa a formar parte del equipo de diseño de WIC.</p>
+            </div>
+        </div>
+    </section>
+    <section id="experience" class="d-flex align-items-center justify-content-center">
+        <div class="container">
+            <h1 class="text-center text-white mb-3">Mi experiencia</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fas fa-book d-block text-center text-purple m-3"></i>
+                    <h4 class="text-white text-center">Diseñador editorial - Usach 2016-2017</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-pen-nib d-block text-center text-purple m-3"></i>
+                    <h4 class="text-white text-center">Diseñador gráfico - MSDI 2018</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-file-code d-block text-center text-purple m-3"></i>
+                    <h4 class="text-white text-center">Diseñador web - WIC 2019</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="my-works">
+
+    </section>
+
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.5.1.js"
-    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <!-- POPPER -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
@@ -61,4 +112,5 @@
     <!-- JS -->
     <script src="assets/js/app.js"></script>
 </body>
+
 </html>
